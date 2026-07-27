@@ -1,0 +1,38 @@
+support,itemsets,length
+0.9069069069069069,frozenset({'Status: Available'}),1
+0.45645645645645644,frozenset({'Rating: Excellent (4-5)'}),1
+0.4294294294294294,"frozenset({'Rating: Excellent (4-5)', 'Status: Available'})",2
+0.35135135135135137,frozenset({'Price: £2-5'}),1
+0.3153153153153153,"frozenset({'Price: £2-5', 'Status: Available'})",2
+0.24624624624624625,frozenset({'Category: Food Cupboard'}),1
+0.24324324324324326,frozenset({'Price: £1-2'}),1
+0.2222222222222222,"frozenset({'Price: £1-2', 'Status: Available'})",2
+0.21621621621621623,"frozenset({'Category: Food Cupboard', 'Status: Available'})",2
+0.2072072072072072,frozenset({'Rating: nan'}),1
+0.1891891891891892,frozenset({'Rating: Good (3-4)'}),1
+0.1831831831831832,frozenset({'Price: £5-10'}),1
+0.17717717717717718,frozenset({'Category: Home & Ents'}),1
+0.17417417417417416,"frozenset({'Rating: Good (3-4)', 'Status: Available'})",2
+0.16816816816816818,"frozenset({'Rating: nan', 'Status: Available'})",2
+0.16816816816816818,"frozenset({'Price: £5-10', 'Status: Available'})",2
+0.15915915915915915,"frozenset({'Category: Home & Ents', 'Status: Available'})",2
+0.15315315315315314,"frozenset({'Rating: Excellent (4-5)', 'Price: £2-5'})",2
+0.14714714714714713,frozenset({'Category: Fresh Food'}),1
+0.14114114114114115,"frozenset({'Category: Food Cupboard', 'Rating: Excellent (4-5)'})",2
+0.13813813813813813,"frozenset({'Price: £2-5', 'Rating: Excellent (4-5)', 'Status: Available'})",3
+0.12912912912912913,"frozenset({'Category: Fresh Food', 'Status: Available'})",2
+0.12912912912912913,"frozenset({'Category: Food Cupboard', 'Rating: Excellent (4-5)', 'Status: Available'})",3
+0.12912912912912913,frozenset({'Category: Health & Beauty'}),1
+0.12612612612612611,frozenset({'Category: Drinks'}),1
+0.12012012012012012,"frozenset({'Category: Health & Beauty', 'Status: Available'})",2
+0.12012012012012012,"frozenset({'Category: Drinks', 'Status: Available'})",2
+0.11711711711711711,frozenset({'Brand: TESCO'}),1
+0.11411411411411411,frozenset({'Price: <£1'}),1
+0.1111111111111111,"frozenset({'Price: £1-2', 'Rating: Excellent (4-5)'})",2
+0.1111111111111111,frozenset({'Rating: Medium (2-3)'}),1
+0.1111111111111111,"frozenset({'Brand: TESCO', 'Status: Available'})",2
+0.1111111111111111,"frozenset({'Rating: nan', 'Category: Home & Ents'})",2
+0.10810810810810811,frozenset({'Price: >£10'}),1
+0.10510510510510511,"frozenset({'Price: >£10', 'Status: Available'})",2
+0.10510510510510511,"frozenset({'Price: £1-2', 'Rating: Excellent (4-5)', 'Status: Available'})",3
+0.1021021021021021,"frozenset({'Rating: Medium (2-3)', 'Status: Available'})",2
