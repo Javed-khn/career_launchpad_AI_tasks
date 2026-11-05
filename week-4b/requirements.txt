@@ -1,0 +1,17 @@
+# Python 3.12.4. Install the CUDA build of torch/torchvision first for GPU training:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126
+# then: pip install -r requirements.txt
+torch==2.14.1
+torchvision==0.29.1
+numpy==2.3.3
+pandas==3.1.1
+scikit-learn==1.7.2
+matplotlib==3.10.9
+seaborn==0.13.2
+ultralytics==8.4.202
+opencv-python==5.0.0.93
+datasets==5.1.0
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0
+jupyter==1.1.1
