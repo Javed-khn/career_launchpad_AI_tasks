@@ -1,0 +1,83 @@
+{
+  "ANN": {
+    "accuracy": 0.75,
+    "precision": 0.6764705882352942,
+    "recall": 0.5609756097560976,
+    "f1": 0.6133333333333333,
+    "train_time_s": 0.9918406009674072,
+    "params": 850,
+    "config": {
+      "hidden": "(32, 16)",
+      "act": "leaky_relu",
+      "dropout": 0.4,
+      "val_loss": 0.4859828005666318,
+      "val_acc": 0.7130434782608696,
+      "epochs": 29
+    }
+  },
+  "YOLO": {
+    "images": 8,
+    "avg_inference_ms": 8.875,
+    "total_detections": 42,
+    "mean_confidence": 0.600375,
+    "video": {
+      "frames": 75,
+      "avg_inference_ms": 4.4,
+      "est_fps": 227.3,
+      "avg_dets_per_frame": 13.89,
+      "classes_seen": {
+        "chair": 231,
+        "vase": 188,
+        "person": 154,
+        "potted plant": 120,
+        "tv": 116,
+        "dining table": 90,
+        "clock": 62,
+        "refrigerator": 59,
+        "cup": 13,
+        "bottle": 9
+      }
+    },
+    "model": "yolov8n (COCO, 80 classes)"
+  },
+  "CNN": {
+    "accuracy": 0.923,
+    "precision": 0.9229820335112795,
+    "recall": 0.923,
+    "f1": 0.9226264871022998,
+    "train_time_s": 198.90303301811218,
+    "params": 585066,
+    "without_aug": {
+      "accuracy": 0.9371,
+      "precision": 0.9369193200987069,
+      "recall": 0.9371,
+      "f1": 0.9366060249713289,
+      "train_time_s": 108.55566382408142,
+      "params": 585066
+    }
+  },
+  "RNN": {
+    "accuracy": 0.84728,
+    "precision": 0.8231834425253127,
+    "recall": 0.88456,
+    "f1": 0.8527687798858553,
+    "train_time_s": 15.047469139099121,
+    "params": 2692354,
+    "simple_rnn": {
+      "accuracy": 0.73624,
+      "precision": 0.7604056437389771,
+      "recall": 0.68984,
+      "f1": 0.7234060402684563,
+      "train_time_s": 8.27523684501648,
+      "params": 2593282
+    },
+    "bilstm": {
+      "accuracy": 0.86932,
+      "precision": 0.8595685022197991,
+      "recall": 0.88288,
+      "f1": 0.8710683136666798,
+      "train_time_s": 22.93501043319702,
+      "params": 2824706
+    }
+  }
+}

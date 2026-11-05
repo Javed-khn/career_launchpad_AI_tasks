@@ -1,0 +1,9 @@
+image,n_detections,classes,mean_conf,min_conf,max_conf,inference_ms,total_ms
+baseball.jpg,3,"personx2, sports ballx1",0.513,0.25,0.727,4.3,10.2
+bedroom.jpg,7,"bedx1, bookx2, bottlex1, chairx1, potted plantx2",0.606,0.255,0.909,14.0,22.6
+bus.jpg,6,"busx1, personx4, stop signx1",0.656,0.256,0.873,8.8,18.3
+cats.jpg,5,"catx2, couchx1, remotex2",0.635,0.324,0.888,11.0,15.0
+living_room.jpg,13,"chairx5, clockx1, dining tablex2, personx1, potted plantx1, refrigeratorx1, tvx1, vasex1",0.484,0.266,0.927,8.2,19.0
+skier.jpg,2,"personx1, skisx1",0.723,0.544,0.902,6.7,16.7
+stop_sign.jpg,3,"stop signx2, truckx1",0.537,0.298,0.966,7.4,17.0
+zidane.jpg,3,"personx2, tiex1",0.649,0.292,0.836,10.6,15.6
