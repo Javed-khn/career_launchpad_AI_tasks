@@ -1,0 +1,4 @@
+Model,Accuracy,Precision (macro),Recall (macro),F1 (macro),AUC (OvR macro),Trainable params,Train time (s),Epochs run,Best epoch
+CNN,0.9734,0.9747,0.9734,0.9735,0.9995,288549,58.4,40,36
+RNN,0.7309,0.7204,0.7302,0.7172,0.929,74885,2.4,40,36
+LSTM,0.804,0.8021,0.8037,0.8018,0.9655,297605,3.5,40,35

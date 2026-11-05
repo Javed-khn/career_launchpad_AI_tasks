@@ -1,0 +1,6 @@
+,accuracy,accuracy,precision,precision,recall,recall,f1,f1,auc_macro,auc_macro,train_time_s,train_time_s
+,mean,std,mean,std,mean,std,mean,std,mean,std,mean,std
+model,,,,,,,,,,,,
+CNN,0.969,0.0077,0.9698,0.0076,0.9689,0.0077,0.9689,0.0078,0.9992,0.0004,57.9287,0.5855
+LSTM,0.7951,0.0084,0.7932,0.0092,0.7948,0.0084,0.7927,0.0095,0.9573,0.0071,3.4791,0.3415
+RNN,0.7375,0.0088,0.7332,0.0142,0.7368,0.0088,0.7251,0.0113,0.9297,0.0029,2.4688,0.0323
